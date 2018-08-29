@@ -1,0 +1,3 @@
+solver lbfgs random_state 65535
+solver sgd random_state 65535
+solver adam random_state 65535
