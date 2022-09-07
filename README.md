@@ -1,6 +1,7 @@
 [![version](https://img.shields.io/github/license/texttechnologylab/reCAPTCHA)]()
 
 # GeneticClassifierWorkbench
+```
 GeneticClassifier.bat -m graphsimsvmwalktrough
 
 -m execution-mode
@@ -8,10 +9,12 @@ GeneticClassifier.bat -m graphsimsvmwalktrough
 -l category label file
 -pl parameter study file
 -r result file
+```
 
-Example:
+# Example
+```
 GeneticClassifier.bat -m graphsimsvmwalktrough -d data/object.matrix -l data/object.labels -pl data/parameter_svm.model -r data/object.result.txt
-
+```
 
 Result File for execution mode graphsimsvmwalktrough
 
